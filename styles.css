@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/nature-background.jpg'); /* Background image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    color: #003d7d; /* MIT Blue */
+}
+
+a {
+    color: #003d7d; /* MIT Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 61, 125, 0.8); /* MIT Blue with transparency */
+    color: #ffffff;
+    padding: 40px 0;
+    border-bottom: 5px solid #003d7d; /* MIT Blue border */
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-details {
+    margin-left: 20px;
+}
+
+.intro {
+    font-size: 1.2em;
+    color: #0073e6; /* MIT Light Blue */
+    margin: 10px 0;
+}
+
+.contact-info p, .contact-info a {
+    color: white;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #ffffff;
+    background-color: #0056a0; /* MIT Dark Blue */
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #003d7d; /* MIT Blue */
+}
+
+/* Main Sections */
+main {
+    padding: 40px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Sections */
+section {
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20
